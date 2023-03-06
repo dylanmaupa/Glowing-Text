@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 18px;
+    font-family: "Vibur", sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),url(./milad-fakurian-PGdW_bHDbpI-unsplash.jpeg);
+}
+
+.neonText {
+    color: #fff;
+    /* border: 5px solid #fff;
+    border-radius: 10px; */
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 12px #fff,
+        0 0 42px #f09,
+        0 0 82px #f09,
+        0 0 92px #f09,
+        0 0 102px rgb(0, 123, 255),
+        0 0 151px #f09;
+    /* box-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 12px #fff,
+        0 0 42px #f09,
+        0 0 82px #f09,
+        0 0 92px #f09,
+        0 0 102px #f09,
+        0 0 151px #f09; */
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 7rem;
+    outline: none;
+    line-height: 1;
+    animation: glow 1s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes glow {
+    100% {
+        text-shadow:
+            0 0 0px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #f09,
+            0 0 30px #f09,
+            0 0 35px #f09,
+            0 0 40px #f09,
+            0 0 50px #f09;
+    }
+    0% {
+        text-shadow:
+            0 0 0px #fff,
+            0 0 2px #fff,
+            0 0 6px #fff,
+            0 0 8px #f09,
+            0 0 10px #f09,
+            0 0 12px #f09,
+            0 0 15px #f09,
+            0 0 20px #f09;
+    }
+}
+
+.text{
+    margin-top: 5rem;
+}
+h2{
+    color: #fff;
+    font-size: 5rem;
+    text-shadow:
+            0 0 0px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #f09,
+            0 0 30px #f09,
+            0 0 35px #f09,
+            0 0 40px #066,
+            0 0 50px rgb(25, 25, 255),
+            0 0 55px rgb(51, 255, 0),
+            0 0 50px rgb(145, 255, 0);
+}
